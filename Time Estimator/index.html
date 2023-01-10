@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Speaking Time Estimator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Speaking Time Estimator</h1>
+    <form onsubmit="calculateTime(); return false;">
+      <textarea id="textInput"></textarea>
+      <br />
+      <button type="submit">Estimate Speaking Time</button>
+    </form>
+    <br />
+    <p>Number of words: <span id="wordCount"></span></p>
+    <p>Estimated speaking time: <span id="speakingTime"></span></p>
+    <script src="./script.js"></script>
+  </body>
+</html>
